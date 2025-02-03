@@ -111,7 +111,7 @@ textarea {
     --chat--subtitle--font-size: 1rem;
     --chat--subtitle--line-height: 1.8;
 
-    --chat--textarea--height: 100px;
+    --chat--textarea--height: 50px;
 
     --chat--message--font-size: 1rem;
     --chat--message--padding: var(--chat--spacing);
