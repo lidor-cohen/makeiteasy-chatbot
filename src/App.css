@@ -35,7 +35,7 @@
 
   --chat--textarea--height: 65px;
 
-  --chat--message--font-size: 1rem;
+  --chat--message--font-size: 0.8rem;
   --chat--message--padding: var(--chat--spacing);
   --chat--message--border-radius: var(--chat--border-radius);
   --chat--message-line-height: 1.2;
@@ -89,7 +89,7 @@ textarea {
     --chat--color-disabled: #777980;
     --chat--color-typing: #404040;
 
-    --chat--spacing: 2rem;
+    --chat--spacing: 1.4rem;
     --chat--border-radius: 0.25rem;
     --chat--transition-duration: 0.15s;
 
@@ -111,10 +111,10 @@ textarea {
 
     --chat--textarea--height: 50px;
 
-    --chat--message--font-size: 1rem;
+    --chat--message--font-size: 0.6rem;
     --chat--message--padding: var(--chat--spacing);
     --chat--message--border-radius: var(--chat--border-radius);
-    --chat--message-line-height: 1.8;
+    --chat--message-line-height: 1.5;
     --chat--message--bot--background: var(--chat--color-white);
     --chat--message--bot--color: var(--chat--color-dark);
     --chat--message--bot--border: none;
@@ -134,5 +134,9 @@ textarea {
     font-size: 1rem !important;
     padding: 15px !important;
     padding-right: 80px !important;
+  }
+
+  p {
+    margin-bottom: 0 !important;
   }
 }
