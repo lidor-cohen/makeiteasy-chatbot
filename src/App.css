@@ -28,7 +28,7 @@
   --chat--header--color: var(--chat--color-light);
   --chat--header--border-top: none;
   --chat--header--border-bottom: none;
-  --chat--heading--font-size: 1.9em;
+  --chat--heading--font-size: 2.2em;
   --chat--header--color: var(--chat--color-light);
   --chat--subtitle--font-size: 1.3rem;
   --chat--subtitle--line-height: 1.8;
@@ -71,6 +71,15 @@ textarea {
   font-size: 1rem !important;
   padding: 22.5px !important;
   padding-right: 100px !important;
+}
+
+.chat-heading {
+  justify-content: center !important;
+}
+
+.chat-message-from-user {
+  margin-right: auto !important;
+  margin-left: 0 !important;
 }
 
 @media screen and (max-width: 637px) {

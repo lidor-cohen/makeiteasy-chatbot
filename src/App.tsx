@@ -31,7 +31,7 @@ export const App = () => {
       ],
       i18n: {
         en: {
-          title: "אשף האוטומציות 🧙🏻‍♂️",
+          title: "אשף האוטומציות - Make it Easy 🧙🏻‍♂️ ",
           subtitle: "",
           footer: "",
           getStarted: "שיחה חדשה",
