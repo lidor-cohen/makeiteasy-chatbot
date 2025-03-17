@@ -7,7 +7,7 @@ export const App = () => {
   useEffect(() => {
     createChat({
       webhookUrl:
-        "https://techiteasy.app.n8n.cloud/webhook/27b8919e-ec16-4111-a1ee-b5d51c9baa0d/chat",
+        "https://n8n.srv642118.hstgr.cloud/webhook/27b8919e-ec16-4111-a1ee-b5d51c9baa0d/chat",
       webhookConfig: {
         method: "POST",
         headers: {},
